@@ -51,7 +51,6 @@
 		C742D9792C1B8A9500F27934 = {
 			isa = PBXGroup;
 			children = (
-				C74853942C1BD2E8004E592E /* MapView.swift */,
 				C742D9842C1B8A9500F27934 /* Zaliczenie */,
 				C742D9832C1B8A9500F27934 /* Products */,
 			);
@@ -69,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				C742D9892C1B8A9600F27934 /* Assets.xcassets */,
+				C74853942C1BD2E8004E592E /* MapView.swift */,
 				C74853862C1BB30E004E592E /* OrdersView.swift */,
 				C74853842C1BA74A004E592E /* DebugView.swift */,
 				C742D99A2C1B8B6100F27934 /* Auth.swift */,

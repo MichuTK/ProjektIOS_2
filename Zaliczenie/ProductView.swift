@@ -22,7 +22,7 @@ struct ProductView: View {
                         .gesture(
                             TapGesture(count: 1)
                                 .onEnded(){_ in scaleImg -= 0.20
-                                    if  (scaleImg>3) {scaleImg = 1}
+                                    if  (scaleImg<0.2) {scaleImg = 1}
                                 }
                         )
                         .gesture(
@@ -43,7 +43,7 @@ struct ProductView: View {
                 
             }
             .padding()
-            .navigationTitle("Product Details")
+            .navigationTitle("Szczegóły")
             .navigationBarTitleDisplayMode(.inline)
     }
 }

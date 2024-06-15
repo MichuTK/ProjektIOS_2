@@ -54,7 +54,6 @@ struct HomeView: View {
                                }
                                .padding(.vertical, 5)
                            }
-                    
                 }
                 .navigationBarItems(trailing: Button(action: {
                     isLoggedIn = false
@@ -87,7 +86,6 @@ struct HomeView: View {
                     .shadow(color: .red, radius: 15, y: 5)
                     .padding()
                 }
-                
                 .navigationTitle("Lista produktów")
             }
         }

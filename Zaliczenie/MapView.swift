@@ -9,6 +9,7 @@ struct MapView: View {
 
     var body: some View {
         VStack{
+            Text("Nasze sklepy").font(.title)
             Map(coordinateRegion: $region)
             
             HStack() {
@@ -32,7 +33,8 @@ struct MapView: View {
                 .cornerRadius(8)
             }
         }
-        
+        .navigationTitle("Nasze sklepy")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
